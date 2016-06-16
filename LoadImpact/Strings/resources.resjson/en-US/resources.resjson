@@ -1,0 +1,11 @@
+{
+  "loc.friendlyName": "Load Impact Step",
+  "loc.helpMarkDown": "[More Information](https://loadimpact.com/)",
+  "loc.description": "Start On-demand load testing",
+  "loc.instanceNameFormat": "Run Load Test : $(testID)",
+  "loc.group.displayName.advanced": "Advanced",
+  "loc.input.label.apiToken": "API Token",
+  "loc.input.help.apiToken": "API Token https://app.loadimpact.com/integrations/api-token",
+  "loc.input.label.testID": "Test Name",
+  "loc.input.help.testID": "Give the name of the test that you want to run"
+}

@@ -1,0 +1,42 @@
+{
+  "manifestVersion": 1,
+  "id": "loadimpact",
+  "name": "Load Impact Extension VSTS",
+  "version": "0.0.10",
+  "publisher": "julienstroheker",
+  "description": "Launch your Load Test from Load Impact",
+  "categories": [
+      "Test"
+  ],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "icons": {
+    "default": "imgs/icon.jpg"
+  },
+  "tags": [
+        "test",
+        "load test",
+        "load impact",
+        "loadimpact"
+    ],
+  "files": [
+    {
+      "path": "LoadImpact"
+    }
+  ],
+  "contributions": [
+      {
+          "id": "loadimpact-task",
+          "type": "ms.vss-distributed-task.task",
+          "targets": [
+              "ms.vss-distributed-task.tasks"
+          ],
+          "properties": {
+              "name": "LoadImpact"
+          }
+      }
+  ]
+}

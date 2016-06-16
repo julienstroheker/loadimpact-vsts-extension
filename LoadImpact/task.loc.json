@@ -1,0 +1,50 @@
+{
+  "id": "80c2aa68-a88a-48e0-90f4-f3e62092c69b",
+  "name": "LoadImpact",
+  "friendlyName": "ms-resource:loc.friendlyName",
+  "description": "ms-resource:loc.description",
+  "helpMarkDown": "ms-resource:loc.helpMarkDown",
+  "category": "Test",
+  "visibility": [
+    "Build",
+    "Release"
+  ],
+  "author": "Julien Stroheker",
+  "version": {
+    "Major": 0,
+    "Minor": 3,
+    "Patch": 0
+  },
+  "groups": [
+    {
+      "name": "advanced",
+      "displayName": "ms-resource:loc.group.displayName.advanced",
+      "isExpanded": false
+    }
+  ],
+  "instanceNameFormat": "ms-resource:loc.instanceNameFormat",
+  "inputs": [
+    {
+      "name": "apiToken",
+      "type": "string",
+      "label": "ms-resource:loc.input.label.apiToken",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "ms-resource:loc.input.help.apiToken"
+    },
+    {
+      "name": "testID",
+      "type": "string",
+      "label": "ms-resource:loc.input.label.testID",
+      "defaultValue": "",
+      "helpMarkDown": "ms-resource:loc.input.help.testID",
+      "required": true
+    }
+  ],
+  "execution": {
+    "Node": {
+      "target": "loadimpacttask.js",
+      "argumentFormat": ""
+    }
+  }
+}
