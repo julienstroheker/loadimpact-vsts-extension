@@ -11,8 +11,8 @@
   ],
   "author": "Julien Stroheker",
   "version": {
-    "Major": 0,
-    "Minor": 3,
+    "Major": 1,
+    "Minor": 0,
     "Patch": 0
   },
   "groups": [
@@ -25,20 +25,20 @@
   "instanceNameFormat": "ms-resource:loc.instanceNameFormat",
   "inputs": [
     {
-      "name": "apiToken",
-      "type": "string",
-      "label": "ms-resource:loc.input.label.apiToken",
-      "defaultValue": "",
-      "required": true,
-      "helpMarkDown": "ms-resource:loc.input.help.apiToken"
-    },
-    {
       "name": "testID",
       "type": "string",
       "label": "ms-resource:loc.input.label.testID",
       "defaultValue": "",
       "helpMarkDown": "ms-resource:loc.input.help.testID",
       "required": true
+    },
+    {
+      "name": "apiToken",
+      "type": "string",
+      "label": "ms-resource:loc.input.label.apiToken",
+      "defaultValue": "",
+      "required": true,
+      "helpMarkDown": "ms-resource:loc.input.help.apiToken"
     }
   ],
   "execution": {

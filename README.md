@@ -1,4 +1,4 @@
-# loadimpact-vsts-extension
+# Loadimpact-vsts-extension
 Microsoft Visual Studio Team Services (VSTS) extension to trigger a test from LoadImpact.com with the build-test-release pipeline
 
 ## Prerequisite:

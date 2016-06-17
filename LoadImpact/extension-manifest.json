@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "loadimpact",
   "name": "Load Impact Extension VSTS",
-  "version": "0.0.10",
+  "version": "0.1.1",
   "publisher": "julienstroheker",
   "description": "Launch your Load Test from Load Impact",
   "categories": [
@@ -14,7 +14,7 @@
     }
   ],
   "icons": {
-    "default": "imgs/icon.jpg"
+    "default": "icon.png"
   },
   "tags": [
         "test",

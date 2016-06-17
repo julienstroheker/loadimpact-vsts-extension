@@ -39,6 +39,23 @@ function tableScenario(json){
 		headers: {
 			'Authorization': auth
 		}
-	}).then(function() { /* handle response */ });
-	tl.debug('Test ' + testID + 'Started');
+	}).then(function(responsePost) { responsePost.json().then(s => tableResponse(s)) });
+
+function tableResponse(json){
+	console.log('Response ID : '+ json.id)
+	fetch('https://api.loadimpact.com/v2/tests/'+ json.id, {
+	method: 'GET', 
+	headers: {
+		'Authorization': auth
+	}
+	}).then(function(responseTest) { 
+		 responseTest.json().then(t => tableStatus(t))
+	});
+}
+
+function tableStatus(json) {
+		console.log('Test : '+ json.title + ' - Status : '+ json.status_text)
+	}
+
+	tl.debug('Test ' + testID + ' Started');
 }
