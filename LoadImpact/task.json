@@ -1,5 +1,5 @@
 {
-    "id": "80c2aa68-a88a-48e0-90f4-f3e62092c69b",
+    "id": "80c2aa68-a88a-48e0-90f4-f3e62092c69c",
     "name": "LoadImpact",
     "friendlyName": "Load Impact Step",
     "description": "Start On-demand load testing",
@@ -11,7 +11,7 @@
     ],
     "author": "Julien Stroheker",
     "version": {
-        "Major": 1,
+        "Major": 2,
         "Minor": 0,
         "Patch": 0
     },
@@ -39,6 +39,14 @@
             "defaultValue": "",
             "required": true,
             "helpMarkDown": "API Token https://app.loadimpact.com/integrations/api-token"
+        },
+        {
+            "name": "email",
+            "type": "string",
+            "label": "Send Notification to",
+            "defaultValue": "",
+            "required": false,
+            "helpMarkDown": "Enter an email address if you want to received a notificaiton from this Load Test"
         }
     ],
     "execution": {

@@ -1,8 +1,8 @@
 {
   "manifestVersion": 1,
-  "id": "loadimpact",
-  "name": "Load Impact Extension VSTS",
-  "version": "0.1.1",
+  "id": "loadimpactvnext",
+  "name": "Load Impact Extension VSTS Vnext",
+  "version": "0.2.0",
   "publisher": "julienstroheker",
   "description": "Launch your Load Test from Load Impact",
   "categories": [

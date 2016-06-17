@@ -7,5 +7,7 @@
   "loc.input.label.testID": "Test Name",
   "loc.input.help.testID": "Give the name of the test that you want to run",
   "loc.input.label.apiToken": "API Token",
-  "loc.input.help.apiToken": "API Token https://app.loadimpact.com/integrations/api-token"
+  "loc.input.help.apiToken": "API Token https://app.loadimpact.com/integrations/api-token",
+  "loc.input.label.email": "Send Notification to",
+  "loc.input.help.email": "Enter an email address if you want to received a notificaiton from this Load Test"
 }

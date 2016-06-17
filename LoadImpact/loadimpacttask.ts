@@ -10,9 +10,11 @@ var onError = function(errMsg) {
 }
 
 var apiToken = tl.getInput('apiToken', true);
-tl.debug('apiToken: ' + apiToken);
+tl.debug('apiToken : ' + apiToken);
 var testID = tl.getInput('testID', true);
-tl.debug('test Name: ' + testID);
+tl.debug('test Name : ' + testID);
+var email = tl.getInput('email', true);
+tl.debug('email : ' + email);
 
 var password = ''
 var auth = 'Basic ' + new Buffer(apiToken + ':' + password).toString('base64');
@@ -55,6 +57,9 @@ function tableResponse(json){
 
 function tableStatus(json) {
 		console.log('Test : '+ json.title + ' - Status : '+ json.status_text)
+		if (email != null) {
+    		console.log('Sent an email to : '+email)
+		}
 	}
 
 	tl.debug('Test ' + testID + ' Started');
