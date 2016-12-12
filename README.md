@@ -7,7 +7,9 @@ Microsoft Visual Studio Team Services (VSTS) extension to trigger a test from Lo
 
 ## Prerequisite:
 
-You need to have an account on [LoadImpact.com](https://loadimpact.com/) and generate an API Token to use it.
+* Typescript
+* tfx-cli
+* You need to have an account on [LoadImpact.com](https://loadimpact.com/) and generate an API Token to use it.
 
 ## To compile, please run:
 1. npm update
