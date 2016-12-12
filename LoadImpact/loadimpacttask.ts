@@ -35,7 +35,6 @@ function tableScenario(json){
 	fetch('https://api.loadimpact.com/v2/test-configs/'+ id +'/start', {
 		method: 'POST',
 		mode: 'cors',
-		redirect: 'follow',
 		headers: {
 			'Authorization': auth
 		}

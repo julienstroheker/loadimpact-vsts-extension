@@ -80,6 +80,9 @@ gulp.task('build', ['locCommon'], function () {
 gulp.task('package', ['build'], function() {
     var _manifestDir = path.join(__dirname, 'LoadImpact');
     shell.cp('-R', path.join(_manifestDir, 'icon.png'), _buildRoot);
+    shell.cp('-R', path.join(_manifestDir, 'Screenshot1.png'), _buildRoot);
+    shell.cp('-R', path.join(_manifestDir, 'Screenshot2.png'), _buildRoot);
+    shell.cp('-R', path.join(_manifestDir, 'overview.md'), _buildRoot);
     shell.cp('-R', path.join(_manifestDir, 'extension-manifest.json'), _buildRoot);
 
     return pkgm.PackageVsix(_pkgRoot, _buildRoot);

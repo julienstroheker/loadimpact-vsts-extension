@@ -5,17 +5,18 @@ Microsoft Visual Studio Team Services (VSTS) extension to trigger a test from Lo
 
 ![Conf](./imgs/Screenshot2.png)
 
-## Prerequisite:
+## [You can check this extension from the marketplace by clicking here.](https://marketplace.visualstudio.com/items?itemName=julienstroheker.loadimpact) ##
 
-* Typescript
-* tfx-cli
-* You need to have an account on [LoadImpact.com](https://loadimpact.com/) and generate an API Token to use it.
-
-## To compile, please run:
-1. npm update
-1. gulp
+### To compile it by yourself, please run:
+* `npm install`
+* `gulp`
 
 The vsix package will be produced in `_package`, and it can be uploaded to Visual Studio Team Services market place for sharing. 
+
+> You will need the following prerequisite:
+>* Typescript
+>* tfx-cli
+>* You need to have an account on [LoadImpact.com](https://loadimpact.com/) and generate an API Token to use it.
 
 If you need more imformations on how you can publish your package : [Visual Studio Team Services Docs](https://www.visualstudio.com/docs/integrate/extensions/publish/overview#upload)
 
