@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "loadimpact",
   "name": "Load Impact Extension",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "julienstroheker",
   "description": "Trigger your Load Test from Load Impact",
   "public": true,
